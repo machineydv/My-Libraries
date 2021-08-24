@@ -1,5 +1,5 @@
 # My-Libraries
 ## Library List
 * **[Go Basic](https://github.com/machinexa2/GoBasic)** : Go Functions
-* **[StandardShell](https://github.com/machinexa2/StandardShell)** : Build shell for RCE
+* **[ConfigurableShell](https://github.com/machinexa2/ConfigurableShell)** : Build shell for RCE
 
