@@ -9,7 +9,7 @@ github_password=":""$passmepass""@"
 cat README.md |  awk -F '(' '{print $2}' | awk -F ')**' '{print $1}' | sort -u | while read repository
 do
 	if [ ! -z "$repository" ]; then
-		git clone `echo "$repository"".git" | sed s/'github.com'/'machinexa2:@github.com'/g | sed s/':@'/$github_password/g`
+		git clone `echo "$repository"".git" | sed s/'github.com'/'machineydv:@github.com'/g | sed s/':@'/$github_password/g`
 	fi
 done
 gitpass
